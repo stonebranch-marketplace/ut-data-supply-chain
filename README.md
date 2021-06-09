@@ -10,7 +10,7 @@
 <li>OneDrive</li>
 <li>Hadoop Distributed File Storage (HDFS)</li>
 </ul>
-<p><strong>Watch this 10 min detailed demonstration <a href="https://www.youtube.com/embed/SCZxlw5gDxI">video</a>:</strong></p>
+<p><strong>Watch this 10 min detailed demonstration <a href="https://www.youtube.com/embed/SCZxlw5gDxI">video</a>.</strong></p>
 <p>&nbsp;</p>
 <p><strong>Universal Task Inter-Cloud Data Transfer Key Features:</strong></p>
 <ul class="ak-ul" data-indent-level="1">
