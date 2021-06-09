@@ -1,4 +1,4 @@
-# ut-inter-cloud-data-transfer
+<p># ut-inter-cloud-data-transfer</p>
 <p>The <strong>Inter-Cloud Data Transfer</strong> integration allows users to transfer data to, from, and between any of the major private and public cloud providers like AWS, Google Cloud, and Microsoft Azure. It also supports the transfer of data to and from a Hadoop Distributed File System (HDFS) and to major cloud applications like OneDrive and SharePoint.</p>
 <p>An advantage of using the Inter-Cloud Data Transfer integration over other approaches is that data is streamed from one object store to another without the need for intermediate storage.&nbsp;</p>
 <p>Integrations with this solution package include:&nbsp;</p>
@@ -10,8 +10,8 @@
 <li>OneDrive</li>
 <li>Hadoop Distributed File Storage (HDFS)</li>
 </ul>
-<p><strong>Watch this 10 min detailed demonstration video:</strong></p>
-<h4><iframe frameborder="0" src="https://www.youtube.com/embed/SCZxlw5gDxI" width="560" height="315" allowfullscreen="allowfullscreen"></iframe></h4>
+<p><strong>Watch this 10 min detailed demonstration <a href="https://www.youtube.com/embed/SCZxlw5gDxI">video</a>:</strong></p>
+<p>&nbsp;</p>
 <p><strong>Universal Task Inter-Cloud Data Transfer Key Features:</strong></p>
 <ul class="ak-ul" data-indent-level="1">
 <li>Transfer data to, from, and between any cloud provider</li>
@@ -35,5 +35,4 @@
 </li>
 </ul>
 <p>&nbsp;</p>
-Please visit this link to find key features, prerequisites, installation instructions, configuration instructions, and examples of how to use this integration. 
-<a href="https://docs.stonebranch.com/confluence/pages/viewpage.action?spaceKey=UC70&title=Inter-Cloud+Data+Transfer#Inter-CloudDataTransfer-Considerations">Inter-Cloud Data Transfer</a>.&nbsp;</li>
+<p>Please visit this link to find key features, prerequisites, installation instructions, configuration instructions, and examples of how to use this integration. <a href="https://docs.stonebranch.com/confluence/pages/viewpage.action?spaceKey=UC70&amp;title=Inter-Cloud+Data+Transfer#Inter-CloudDataTransfer-Considerations">Inter-Cloud Data Transfer</a>.&nbsp;</p>
