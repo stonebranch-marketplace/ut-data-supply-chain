@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2021-06-15 16:56:56" unload_format="1" unload_table="ops_unv_tmplt" unload_version="7.0.0.0"><ops_unv_tmplt action="INSERT_OR_UPDATE"><credentials_var/><agent/><ext_archive/><icon_date_created>2021-02-03 14:57:37</icon_date_created><sys_updated_on>2021-06-14 21:10:38</sys_updated_on><output_return_text/><sys_updated_by>ops.admin</sys_updated_by><ext_version/><sys_created_on>2021-03-12 11:28:01</sys_created_on><ext_python_extra_paths/><agent_cluster_var/><agent_cluster_var_check>false</agent_cluster_var_check><wait_for_output>false</wait_for_output><template_type>1</template_type><sys_created_by>ops.admin</sys_created_by><output_return_nline>100</output_return_nline><exit_code_text/><exit_code_fr>0</exit_code_fr><runtime_dir/><output_return_type>1</output_return_type><log_level>0</log_level><script/><broadcast_cluster_var_check>false</broadcast_cluster_var_check><ext_checksum/><agent_type>2</agent_type><script_type_windows/><output_condition_value/><automatic_output_fr>0</automatic_output_fr><agent_cluster/><name>Inter-Cloud-Data-Transfer</name><exit_codes>0</exit_codes><broadcast_cluster/><extension/><output_path_expression/><ext_owner/><use_common_script>false</use_common_script><credentials/><icon_filesize>1558</icon_filesize><icon>iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAAGvZ15GAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABbhJREFUeNpiZHCbwoAKmJA5AVaKCKH+DJv/O7M3HLt/flo4VKhwxhEIwzBrJUjIQU8aqAQiBGSAhA5cenrh7htG96lAPpAECCBG7DbOL3GGcAR42IEkVBXELKAukCqg2egagWajCWExHiCAsAgBjULTCvUP3BkQh+MzCdltOMNPMW4RRAVQNbL7mZA9++DlZ6j57lOBlia4auB0OCYACCCiFDFh+h9LaMJZ9xfFQfwPCQJ4jCIUAd0I9BqKO8ARjHAT0AyICmTdyKEFMmnh7hvIwQ1KHjAVEG0gRQt2XYcIBTZug6Sv92tT0B3en2EL4QCTJ9AMoFJI2AIBMPUBSRYg3njsHrLhyACYflGSHWa8AhM9RBET3C9AP8JtAYYIMLNAVBAbLQABRJQiYgAzg7IXVgmgCydk2DAyMkK4BsqiwIBaUeX28OXnC/feEHYR0NMT119cgBRNWAEwwASD53z48hMuwoLmCuTUsr87AC31AXUC9UMCFRiiyOpZkC1BjhV4HE5Yf3HjsfsO+tL2elIGSiLIhgKjA1hoQQopqNcgNiPnbaAI0EXIzkns2YvpZbj1TLhCAZ6CgdZCwgJYnAC1KYjzYlXPAteGy2t4ADC9OZZuQM+5yLkQwm1cchruWSADmDGAgvASBxg6H77+hCtAj35gXADzGlrUogGgEcAQhCd8wikbqKEgUB/OBWbPxiWngNmWtlkEIAD1Za/SQBREYVkXQQsLERRsfAAx3YKVvVYRO02tXXyD1TewVPAVRCQESRexsLHZIthZCOmsbNRAIB8OGSf3Z10hjVMsJJucOzN7zpnZqQElM1OKtPy2SsSfQ5UygiBQ4Sbf+Z4w71xPGxnfiLlX6pE8fmgWSwEsbiGXsowERWZb7GTkfl/0cZsyY/toHfu27AfG9jUYNvdqt4ZTqc1ZvGZsicv+scp4bCBvZOHSaKqVhY9CWKJTo+19qmqon935/wQa30Kc25troOgQlLCWkuhRQZXKhEJfwFnpS2APf2C2+Fmw0m7RV8ZGgZzz6T1wXO1vhKu/ZySrlfVpJ6/1lUUXyCneNhISx8jVrNeUuul4731AX3q4P0KCIdv0REY8F7tzxkKtXlCs4n4kUry8He1udJ5epVI+ri4tSBdgxkW7t3VybTvwfHVgqTeh/oqDPzj7E2exon+wvAQCivoogbXmst2bn5slbX99AeLxfB8NgPI5GFY1f3qZH2aWgWwT+lLzH6bISIBqzBinoRgGw+gJiYGFgY2pHICyFAkWygl4B6BnYGOtWDtxBdQL9AbAhMRUuiMmWFgYmJj4WktRlDhOXskAVlUhkTp/HPv371RDVMuajT9mm2v8hrw4Xc1IATn5qgVOeFi8pYRLhSsDBGodhmIzinH2+GrIMKmB9rhHtQGaOoejCsFlAOH3btLilNqgX9ggDCfjiwEFymHOrma2kyQgB0WV6OsZRA4F27B0QFwQ+spmDHLo/KQHYkYTNyyyDfzFHSF6UtcqMhm9rl6iAkjOkVJry7HqduQQZNuN6kQOrMa+iZeChqUp1cc9FqIxjNiwBRvFzxlhhNBe3DHxNBpZMM35XbeTESTKNpiJmiAtWEFV24cLfgJEef4gOVLMpBobsT4IksLUvviKjeCpRcc9kqpIBsHHH1lwCNui1uGLONVEt/ExUk00vq3Qdra3Mq1DvA/7e9mBTIxQuWhJhC7bAz/l5RUu5Y2N4uEv7GVwD6zKt0ohZJhMHPz3fvH+vJJM85ePz69vp4cPy2pQ6PsmyleFh9hSnl5UMizRyX6XVf2IQAVT8Aip5xCL5FEp5htYWJ4Hs0aooAMVjXMeo7F6GawFZVdsZH4bwGc8lue7fd3+WtJZi/QQsGA83HELRp1nhRRHWg7VOQHTTVMDazw6kkESyqbKmIUdlwqBUcz9/V2Z/zjD9fSpU3R/K/Lj7tg1hBU0dcXt/8HU8QMeC0SfTbjK6QAAAABJRU5ErkJggg==</icon><credential_fr>0</credential_fr><description>v1.9</description><environment_variables_fr>0</environment_variables_fr><agent_var/><icon_filename>FAVICON48x48px.png</icon_filename><output_condition_operator>1</output_condition_operator><sys_id>93d947a2125142a5a706559aa3d333ac</sys_id><variable_prefix>var</variable_prefix><system_template>false</system_template><script_windows/><credentials_var_check>false</credentials_var_check><agent_fr>0</agent_fr><ext_organization/><ext_comments/><agent_var_check>false</agent_var_check><output_failure_only>false</output_failure_only><output_return_sline>1</output_return_sline><always_cancel_on_finish>false</always_cancel_on_finish><output_type>1</output_type><desktop_interact>false</desktop_interact><ext_requires_python/><script_unix>#!/opt/universal/python3.6/bin/python3
+#
+#
+#    Name   : cloud2cloud.py
+#    Origins: Stonebranch
+#    Author : Nils Buer, Abdullah Saglam
+#    Date   : 01-02-2021
+#
+#    Requires Universal Agent for Linux/Windows
+#
+#    Copyright (c) Stonebranch, 2020.  All rights reserved.
+#
+#    Purpose: Start an Informatica WF or Task
+#
+#    Prerequisites:
+#     - Universal Agent for Windows/Linux 6.9 or higher
+#
+#
+#     Version History:
+#     0.1  Nils          01-02-2021   initial
+#     0.2  Abdullah/Nils 01-02-2021   credentials for script added
+#     0.x  Nils          01-02-2021   initial
+#     0.x  Nils          01-02-2021   initial
+#     0.3  Nils          02-02-2021   initial
+#     0.4  Nils          04-02-2021   filter
+#     0.5  Nils          22-02-2021   rmdir, delete
+#     0.6  Nils          22-02-2021   mkdir
+#     0.7  Nils          22-02-2021   cleanup
+#     0.8  Nils          26-02-2021   dry run added
+#     0.9  Nils          26-02-2021   dry run added
+#     1.0  Nils          26-02-2021   dry run added
+#     1.1  Nils          26-02-2021   cleanup
+#     1.2  Nils          29-03-2021   copy_url added
+#     1.3  Nils          14-04-2021   list types and filter for list objects
+#     1.4  Asaglam       14-04-2021   Monitor object
+#     1.5  Asaglam       28-05-2021   read stderr stdout
+#     1.6  Asaglam       01-06-2021   source destination : checks
+#     1.7  Nils          03-06-2021   fixed list directory action
+#     1.8  Asaglam       07-06-2021   source destination : checks
+#     1.9  Asaglam       14-06-2021   source destination : checks
+#
+# Used modules
+
+import logging
+import site
+import subprocess
+import sys
+import time
+import datetime
+import requests
+import json
+import os
+
+gl_version = "1.9"
+gl_variable_prefix = "var"
+
+# Task Variables
+gl_action = "${ops_var_action}"
+gl_dry_run = True if "${ops_var_dry_run}" == "true" else False
+gl_rclone_conf = "${ops_var_rclone_conf}"
+gl_storage_type = "${ops_var_storage_type}".rstrip(" :") + ":"
+gl_source_storage_type = "${ops_var_source_storage_type}".rstrip(" :") + ":"
+gl_target_storage_type = "${ops_var_target_storage_type}".rstrip(" :") + ":"
+gl_source = "${ops_var_source}"
+gl_target = "${ops_var_target}"
+gl_directory = "${ops_var_directory}"
+gl_file_path = "${ops_var_file_path}"
+gl_list_format = "${ops_var_listformat}"
+gl_rclone_conf_path = "${_scriptPath('${ops_var_rclone_conf}')}"
+gl_base_url_uac = "${ops_var_base_url_uac}".rstrip(" /")
+gl_auth_uac = ("${_credentialUser('${ops_var_rest_credentials_uac}')}",
+               "${_credentialPwd('${ops_var_rest_credentials_uac}')}")
+
+# gl_base_url_uac = "${ops_var_base_url_uac}".rstrip(" /")
+# gl_auth_uac = ("${_credentialUser('${ops_var_rest_credentials_uac}')}","${_credentialPwd('${ops_var_rest_credentials_uac}')}")
+gl_sb_rest = None
+gl_filter = "${ops_var_filter}"
+gl_filter_type = "${ops_var_filter_type}"
+gl_interval = "${ops_var_interval}"
+gl_trigger_on_existence = "${ops_var_trigger_on_existence}"
+gl_other_parameters = [parameter for parameter in "${ops_var_other_parameters}".strip().split()]
+gl_time_start = str(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S%z"))
+# -- logging settings DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+logging.basicConfig(level="${ops_var_loglevel}",
+                    format=' %(asctime)s - %(levelname)s - %(message)s')
+
+
+def main():
+    global gl_sb_rest
+    print_variables()
+    gl_sb_rest = SbRestApi(gl_base_url_uac, gl_auth_uac)
+    if gl_action == "lsd":
+        list_directory(gl_storage_type)
+        pass
+    elif gl_action == "list-objects":
+        list_objects(gl_storage_type, gl_directory,
+                     gl_list_format, gl_filter_type, gl_filter)
+        pass
+    elif gl_action == "copy":
+        copy_new(gl_source_storage_type, gl_target_storage_type, gl_source,
+                 gl_target, gl_filter_type, gl_filter)
+        pass
+    elif gl_action == "copy-url":
+        copy_url(gl_source, gl_target_storage_type, gl_target)
+        pass
+    elif gl_action == "move":
+        move_new(gl_source_storage_type, gl_target_storage_type, gl_source,
+                 gl_target, gl_filter_type, gl_filter)
+        pass
+    elif gl_action == "remove-object":
+        remove_object(gl_storage_type,
+                      gl_file_path, gl_filter_type, gl_filter)
+        pass
+    elif gl_action == "remove-object-store":
+        remove_object_store(gl_storage_type,
+                            gl_directory)
+        pass
+    elif gl_action == "create-object-store":
+        create_object_store(gl_storage_type, gl_directory)
+        pass
+    elif gl_action == "monitor-object":
+        monitor_objects(gl_storage_type, gl_directory,
+                        gl_filter,
+                        gl_trigger_on_existence, gl_interval)
+        pass
+
+
+def print_variables():
+    """logging.infos out the python and script version
+    and all universal template variables
+    """
+    logging.info("Python version &lt;&lt;&lt; " + sys.version + " &gt;&gt;&gt;")
+    logging.info("Python sites &lt;&lt;&lt; " + str(site.getsitepackages()) + " &gt;&gt;&gt;")
+    logging.info("Executing task version " + gl_version + " with the following "
+                                                          "parameters")
+    print_defined_variables(gl_variable_prefix)
+
+
+def print_defined_variables(variable_prefix):
+    """logging.infos out universal template variables"""
+    all_variables = r"""${_scope}"""
+    separate_variables = [variable for variable in all_variables.split(', ') if
+                          "ops_" + variable_prefix in variable]
+    logging.info(str(separate_variables).replace(", ", ",\n"))
+
+
+def list_directory(storage_type):
+    """ list the directory of the given connection type e.g., buckets, containes .. """
+    # rclone lsd google:
+    try:
+        cmd = ['rclone', '--config', gl_rclone_conf_path, 'lsd', storage_type]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        process = subprocess.check_output(cmd)
+    except subprocess.CalledProcessError as e:
+        print(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+
+    out = process.decode(encoding='utf-8', errors='ignore')
+    print(f"######  {storage_type} Container / buckets ######")
+    print(out)
+
+
+def list_objects(storage_type, directory, list_format, filter_type,
+                 filter_name, additional_filter=""):
+    """ list the objects in a directory of the given connection type
+    e.g. s3 keys in a bucket
+    """
+    # rclone ls azure:stonebranchpm
+    list_output = ""
+    try:
+        logging.info("############  List Objects Action ###############")
+        cmd = ['rclone', '--config', gl_rclone_conf_path, list_format,
+               storage_type + directory
+               ]
+        if filter_type != "none":
+            cmd += ["--" + filter_type, filter_name]
+        if additional_filter:
+            cmd += [additional_filter]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        logging.debug(cmd)
+        list_output = execute(cmd)
+    except subprocess.CalledProcessError as e:
+        print(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+    else:
+        print(f"######  object in {directory} ######")
+        print(list_output)
+        return list_output
+
+
+def monitor_objects(storage_type, directory,
+                    filter_name, trigger_on_existence, interval):
+    """ monitor objects in a directory of the given connection type
+    e.g. s3 keys in a bucket
+    """
+    # rclone lsjson azure:stonebranchpm
+    logging.info("############  Monitor Objects Action ###############")
+    found = False  # allow for at least one iteration
+    while not found:
+        list_output = list_objects(storage_type, directory, "lsjson",
+                                   "include",
+                                   filter_name,
+                                   additional_filter="--files-only")
+        list_output_json = json.loads(list_output)
+        if list_output_json:
+            logging.debug("list_output_json")
+            logging.debug(list_output_json)
+            for existing_object in list_output_json:
+                # logging.debug(existing_object["ModTime"])
+                # logging.debug(trigger_on_existence)
+                if trigger_on_existence == "true":
+                    found = True
+                    print("Found, Already exists: %s" % existing_object)
+                elif gl_time_start &lt; existing_object["ModTime"]:
+                    found = True
+                    print("Found, New: %s" % existing_object)
+        # break
+        if not found:
+            logging.info("sleeping for %s seconds now" % interval)
+            time.sleep(float(interval))
+
+
+def copy_new(source_storage_type, target_storage_type, source, target,
+             filter_type, filter_name):
+    """ Copy files from source to dest, skipping already copied."""
+    # rclone copy --progress s3:stonebranchpm / test1.txt s3:stonebranchpmtest
+    try:
+        logging.info("############  copy action ###############")
+        cmd = ['rclone', '--config', gl_rclone_conf_path,
+               'copy', '--progress',
+               source_storage_type + source,
+               target_storage_type + target
+               ]
+        if filter_type != "none":
+            cmd += ["--" + filter_type, filter_name]
+        cmd += ["--error-on-no-transfer", "--log-level", "DEBUG"]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        if gl_dry_run:
+            cmd += ["--dry-run"]
+        logging.debug(cmd)
+        execute(cmd)
+    except subprocess.CalledProcessError as e:
+        print(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+
+
+def copy_url(source, target_storage_type, target):
+    """ Copy file from url to dest. """
+    # rclone --config /root/.config/rclone/rclone.conf copyurl https://example.com/blz-loeschungen-aktuell-data.pdf local:in --auto-filename --progress
+    try:
+        logging.info("############  copy_url action ###############")
+        cmd = ['rclone', '--config', gl_rclone_conf_path,
+               'copyurl', source,
+               target_storage_type + target, '--auto-filename', '--progress'
+               ]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        logging.debug(cmd)
+        execute(cmd)
+    except subprocess.CalledProcessError as e:
+        print(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+
+
+def move_new(source_storage_type, target_storage_type, source, target,
+             filter_type, filter_name):
+    """ Copy files from source to dest, skipping already copied."""
+    # rclone move --progress s3:stonebranchpm / test1.txt s3:stonebranchpmtest
+    try:
+        logging.info("############  move action ###############")
+        cmd = ['rclone', '--config', gl_rclone_conf_path,
+               'move', '--progress',
+               source_storage_type + source,
+               target_storage_type + target
+               ]
+        if filter_type != "none":
+            cmd += ["--" + filter_type, filter_name]
+        cmd += ["--error-on-no-transfer", "--log-level", "DEBUG"]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        if gl_dry_run:
+            cmd += ["--dry-run"]
+        logging.debug(cmd)
+        execute(cmd)
+    except subprocess.CalledProcessError as e:
+        print(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+
+
+def remove_object(target_storage_type, target, filter_type, filter_name):
+    """ Remove files from dest."""
+    # rclone delete s3:stonebranchpm / test1.txt
+    try:
+        logging.info("############  remove object action ###############")
+        cmd = ['rclone', '--config', gl_rclone_conf_path,
+               'delete', target_storage_type + target, '--rmdirs'
+               ]
+        if filter_type != "none":
+            cmd += ["--" + filter_type, filter_name]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        cmd += ["--log-level", "DEBUG"]
+        if gl_dry_run:
+            cmd += ["--dry-run"]
+        logging.debug(cmd)
+        output = execute(cmd)
+        if "eleted" not in output:
+            print("Nothing deleted")
+            exit(1)
+    except subprocess.CalledProcessError as e:
+        print(e.output)
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+
+
+def remove_object_store(target_storage_type, target):
+    """ Remove empty directories from dest."""
+    # rclone rmdir s3:stonebranchpm / test1.txt
+    try:
+        logging.info("############  remove object store action ###############")
+        cmd = ['rclone', '--config', gl_rclone_conf_path,
+               'rmdir', target_storage_type + target
+               ]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        cmd += ["--log-level", "DEBUG"]
+        if gl_dry_run:
+            cmd += ["--dry-run"]
+        logging.debug(cmd)
+        output = execute(cmd)
+        if "eleted" not in output:
+            print("Nothing deleted")
+            exit(1)
+    except subprocess.CalledProcessError as e:
+        print("xxxxxxxxxx except output 1")
+        print(e.output)
+        print("xxxxxxxxxx except output 1")
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+
+
+def create_object_store(storage_type, directory):
+    """ Create empty directory from dest."""
+    # rclone mkdir s3:stonebranchpm / test1.txt
+    try:
+        logging.info("############  create object store action ###############")
+        cmd = ['rclone', '--config', gl_rclone_conf_path,
+               'mkdir', storage_type + directory
+               ]
+        if gl_other_parameters:
+            cmd += gl_other_parameters
+        cmd += ["--log-level", "DEBUG"]
+        if gl_dry_run:
+            cmd += ["--dry-run"]
+        logging.debug(cmd)
+        output = execute(cmd)
+        if "created" not in output:
+            print("Nothing created")
+            exit(1)
+    except subprocess.CalledProcessError as e:
+        print(e)
+        logging.error("Error Code: " + str(e.returncode))
+        exit(1)
+
+
+def execute(cmd):
+    pipe_open = subprocess.Popen(cmd, stdout=subprocess.PIPE,stderr=subprocess.PIPE,
+                                 universal_newlines=True)
+    str_output = ""
+    while pipe_open.poll() is None:
+        line_out = pipe_open.stdout.readline()
+        if line_out != "":
+            str_output += line_out
+            logging.debug("LIBRARY STDOUT: " + line_out)
+        line_err = pipe_open.stderr.readline()
+        if line_err != "":
+            str_output += line_err
+            logging.debug("LIBRARY STDERR: " + line_err)
+        stdout_line = line_out + line_err
+        if "Unchanged skipping" in stdout_line and "DEBUG :" in stdout_line:
+            print(stdout_line.split("DEBUG :")[1].strip())
+        if "Copied " in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+        if "There was nothing to transfer" in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+        if "ERROR" in stdout_line:
+            print(stdout_line.split("ERROR :")[1].strip())
+        if "eleted" in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+        if "created" in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+    pipe_open.stdout.close()
+    pipe_open.stderr.close()
+    return_code = pipe_open.wait()
+    return str_output
+    for stdout_line in iter(pipe_open.stdout.readline, ""):
+        print("x")
+        str_output += stdout_line
+        logging.debug("LIBRARY: " + stdout_line)
+        print("LIBRARY: " + stdout_line)
+        # if "Transferred:" in stdout_line and "ETA" in stdout_line:
+        if stdout_line.startswith("Transferred:") and "ETA" in stdout_line:
+            op_memo_text = stdout_line[
+                           stdout_line.index("Transferred:") + 12:].strip()
+            gl_sb_rest.update_task_op_memo(op_memo_text)
+        if "Unchanged skipping" in stdout_line and "DEBUG :" in stdout_line:
+            print(stdout_line.split("DEBUG :")[1].strip())
+        if "Copied " in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+        if "There was nothing to transfer" in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+        if "ERROR" in stdout_line:
+            print(stdout_line.split("ERROR :")[1].strip())
+        if "Deleted" in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+        if "created" in stdout_line and "INFO  :" in stdout_line:
+            print(stdout_line.split("INFO  :")[1].strip())
+    print("xX")
+    pipe_open.stdout.close()
+    return_code = pipe_open.wait()
+    if return_code:
+        print(str_output)
+        raise subprocess.CalledProcessError(return_code, cmd, str_output)
+    return str_output
+
+
+class SbRestApi:
+    """Stonebranch REST API Class for python
+
+    This class is written for web service operations to UAC
+
+    Attributes:
+        _base_url: base uac url
+        _auth_uac: authentication for uac
+        _library_version: keeps the class library version
+    """
+
+    def __init__(self, base_url, authentication):
+        self._base_url = base_url
+        self._auth_uac = authentication
+        self._library_version = "1.0"
+        logging.info(
+            "REST SB library version " + self._library_version)
+
+    def launch_task(self, data_str):
+        url = '%s/resources/task/ops-task-launch' % self._base_url
+        logging.debug('URL: %s' % url)
+        local_headers = {'content-type': 'application/json'}
+
+        response = requests.post(url, headers=local_headers, data=data_str,
+                                 auth=self._auth_uac, stream=True)
+
+        if 200 != response.status_code:
+            logging.error('Response: %s' % response)
+            logging.error('Response: %s' % response.text)
+            exit(1)
+        else:
+            logging.debug('Response 200 received')
+
+    def update_task_op_memo(self, op_memo_text):
+        logging.info('Updating task operational memo of %s to %s' % (
+            "${ops_task_id}", op_memo_text))
+        url = '%s/resources/taskinstance/updatememo?taskinstanceid=${ops_task_id}' % self._base_url
+        logging.debug('URL: %s' % url)
+        local_headers = {'Content-Type': 'text/plain'}
+        response = requests.put(url, headers=local_headers, data=op_memo_text,
+                                auth=self._auth_uac, stream=True, verify=False)
+
+        if 200 != response.status_code:
+            logging.error('Response: %s' % response.text)
+            exit(1)
+        else:
+            logging.debug('Response 200 received %s' % response.text)
+
+        resp_data = None
+        try:
+            resp_data = response.json()
+            # ...
+        except ValueError:
+            # no JSON returned
+            pass
+        logging.debug("received data: %s" % resp_data)
+
+
+if __name__ == '__main__':
+    main()
+</script_unix><output_return_file/><run_as_sudo>false</run_as_sudo><output_content_type>1</output_content_type><broadcast_cluster_var/><environment/><ext_api_level/><elevate_user>false</elevate_user><exit_code_output/><output_condition_strategy>1</output_condition_strategy><exit_code_processing>1</exit_code_processing><auto_cleanup>false</auto_cleanup><create_console>false</create_console><related_items_node><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:12:38</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>03db93ac98524e3eb3c2bc3091fda131</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Directory</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>11</sequence><show_if_field_value>list-objects,create-object-store,remove-object-store,monitor-object</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint>bucket name, container name, file system directory</hint><field_mapping>textField3</field_mapping><name>directory</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>0969ed7fe6fe4b30ac45efda8b3ef400</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-04-14 19:53:28</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>false</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Trigger on Existence</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>21</sequence><show_if_field_value>monitor-object</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>booleanField3</field_mapping><name>trigger_on_existence</name><field_regex/><field_type>3</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:42</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>242e9ab2143e4fcbb01a174a0b28f5e5</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field/><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>UAC Base URL</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>12</sequence><show_if_field_value/><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>textField4</field_mapping><name>base_url_uac</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>3b2e886d2e1b46339d42c0f287b1e148</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>File Path</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>15</sequence><show_if_field_value>remove-object</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>textField6</field_mapping><name>file_path</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>430107e6bceb4389b72fb8a1b692d92a</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-05-28 11:56:19</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field/><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Other Parameters</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>17</sequence><show_if_field_value/><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>textField7</field_mapping><name>other_parameters</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>516b68d8ca39497bacc9d8eaab515536</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-04-14 07:23:28</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>ls</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>List Format</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>19</sequence><show_if_field_value>list-objects</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>choiceField7</field_mapping><name>listformat</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:12:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>54bba996bec54e68b4b9de73fd203ce4</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Source</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>7</sequence><show_if_field_value>copy,move,copy-url</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint>directory, file, container, bucket</hint><field_mapping>textField1</field_mapping><name>source</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>7249a509d6194b8d80bd283477d327cd</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>INFO</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field/><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Loglevel</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>1</sequence><show_if_field_value/><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>choiceField2</field_mapping><name>loglevel</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>830553b49190498484a4ca230c417401</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>false</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Dry-run</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>18</sequence><show_if_field_value>copy,move,remove-object,remove-object-store,create-object-store</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>booleanField1</field_mapping><name>dry_run</name><field_regex/><field_type>3</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>8a52be3e0f9c4bcb9b9c9cccf0e38d31</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-04-14 09:05:05</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>10</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>nbuer</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Interval</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>20</sequence><show_if_field_value>monitor-object</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint>interval to check for new files to monitor</hint><field_mapping>choiceField8</field_mapping><name>interval</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:11:42</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>9067aa637a2a43ea9dcb53358f9fc42e</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field/><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>UAC Rest Credentials</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>13</sequence><show_if_field_value/><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>credentialField1</field_mapping><name>rest_credentials_uac</name><field_regex/><field_type>5</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 11:33:56</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>91a171c606734370bf810c79ee670be0</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>none</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>true</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Filter Type</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>14</sequence><show_if_field_value>copy,list-objects,move,remove-object,monitor-object</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>choiceField6</field_mapping><name>filter_type</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 11:33:46</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>969b4d3019b9433c8b506462a4bebe86</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Filter</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>16</sequence><show_if_field_value>copy,list-objects,move,remove-object,monitor-object</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>textField5</field_mapping><name>filter</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:12:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>9903e0fc5a7c44149a77f6891511e523</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-06-01 09:55:29</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Source Storage Type</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>9</sequence><show_if_field_value>copy,move</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>textField8</field_mapping><name>source_storage_type</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:12:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>a851e2e5f3204aa3be41b5c8cbf42166</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Target</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>8</sequence><show_if_field_value>copy,move,copy-url</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint>directory, file, container, bucket</hint><field_mapping>textField2</field_mapping><name>target</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:12:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>b1bef417b11340e887c1d585bc41141e</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-06-03 06:51:55</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Storage Type</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>6</sequence><show_if_field_value>list-objects,lsd,create-object-store,remove-object,remove-object-store,monitor-object</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint>enter a storage type defined in the Connection File</hint><field_mapping>textField10</field_mapping><name>storage_type</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-15 16:56:44</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>e50a3a276a984599b6ba1212f3dd3cd1</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field/><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Connection File</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>2</sequence><show_if_field_value/><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>scriptField1</field_mapping><name>rclone_conf</name><field_regex/><field_type>6</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>eb6d22edb906482f8ca002e1d39ce93f</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-03-12 11:28:01</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value>lsd</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field/><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Action</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>0</sequence><show_if_field_value/><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>choiceField1</field_mapping><name>action</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2021-06-03 07:12:37</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><choice_dynamic>false</choice_dynamic><field_mask/><boolean_no_value/><require_if_field/><sys_id>f72631745b794e92bf8b2b18eb81ab3e</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2021-06-01 09:55:52</sys_created_on><choice_allow_multiple>false</choice_allow_multiple><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id><show_if_field>choiceField1</show_if_field><text_type>1</text_type><boolean_yes_value/><preserve_output_on_rerun>false</preserve_output_on_rerun><form_col_span>1</form_col_span><preserve_value_if_hidden>false</preserve_value_if_hidden><field_length/><form_end_row>false</form_end_row><label>Target Storage Type</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>10</sequence><show_if_field_value>copy,move,copy-url</show_if_field_value><form_row_span>1</form_row_span><field_restriction>0</field_restriction><default_list_view>false</default_list_view><choice_fields/><hint/><field_mapping>textField9</field_mapping><name>target_storage_type</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>00985f149ff044c19c006441486b2b3c</sys_id><sequence>7</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-29 11:54:40</sys_created_on><field_value_label>copy-url</field_value_label><field_value>copy-url</field_value><sys_updated_on>2021-03-29 11:54:40</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>29fb3f2561c843ed8725bd792eb19262</sys_id><sequence>1</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>copy</field_value_label><field_value>copy</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>91a171c606734370bf810c79ee670be0</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>2a6186f6c0e34da59688a6b421a172ff</sys_id><sequence>2</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>exclude</field_value_label><field_value>exclude</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>91a171c606734370bf810c79ee670be0</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>3e807eb947d14b099280b15047d967f7</sys_id><sequence>1</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>include</field_value_label><field_value>include</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>516b68d8ca39497bacc9d8eaab515536</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>4ce4772b384f4d96809ff154bbdfa8e9</sys_id><sequence>2</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 07:25:03</sys_created_on><field_value_label>list objects and directories</field_value_label><field_value>lsf</field_value><sys_updated_on>2021-04-14 07:25:03</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>7249a509d6194b8d80bd283477d327cd</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>60c9c38fd9844f849ce2ac81b32bafb5</sys_id><sequence>1</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>DEBUG</field_value_label><field_value>DEBUG</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>516b68d8ca39497bacc9d8eaab515536</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>64adca2498ee4242aad4849106ff0cf2</sys_id><sequence>3</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 07:25:26</sys_created_on><field_value_label> list objects and directories (Json)</field_value_label><field_value>lsjson</field_value><sys_updated_on>2021-04-14 07:32:43</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>66bab42143c143a382153276f8059a0c</sys_id><sequence>5</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>remove-object-store</field_value_label><field_value>remove-object-store</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>7249a509d6194b8d80bd283477d327cd</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>6d70a9dfb1f948f28757014266de30e0</sys_id><sequence>3</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>ERROR</field_value_label><field_value>ERROR</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>6eb7885540354a18867388383b0e6522</sys_id><sequence>2</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>list objects</field_value_label><field_value>list-objects</field_value><sys_updated_on>2021-04-14 08:27:28</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>73fce70a88a04a1b81ffd1d955c7b2ca</sys_id><sequence>4</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>remove-object</field_value_label><field_value>remove-object</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>8519b4badf534853a2b3ed2ddc4123fc</sys_id><sequence>8</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 09:06:37</sys_created_on><field_value_label>monitor-object</field_value_label><field_value>monitor-object</field_value><sys_updated_on>2021-04-14 09:06:37</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>7249a509d6194b8d80bd283477d327cd</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>99e2596bb3824e68a24b66dfacd684ef</sys_id><sequence>4</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>CRITICAL</field_value_label><field_value>CRITICAL</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>516b68d8ca39497bacc9d8eaab515536</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>9abe88bbecbe4c9da657da04669d439d</sys_id><sequence>0</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 07:24:01</sys_created_on><field_value_label>list size and path </field_value_label><field_value>ls</field_value><sys_updated_on>2021-04-14 07:24:01</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>8a52be3e0f9c4bcb9b9c9cccf0e38d31</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>9db25b246b12435b813dbc1ee0ad6e0d</sys_id><sequence>1</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 09:05:28</sys_created_on><field_value_label>60s</field_value_label><field_value>60</field_value><sys_updated_on>2021-04-14 09:05:28</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>a9800480575245b8b6d01e5805efeb0d</sys_id><sequence>3</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>move</field_value_label><field_value>move</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>516b68d8ca39497bacc9d8eaab515536</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>b6e27ad76cf041f6bffdbcbe4987ae16</sys_id><sequence>1</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 07:24:34</sys_created_on><field_value_label>list modification time, size and path</field_value_label><field_value>lsl</field_value><sys_updated_on>2021-04-14 07:24:34</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>91a171c606734370bf810c79ee670be0</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>c1b9631745094c4c90410701c7dc77fc</sys_id><sequence>0</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>none</field_value_label><field_value>none</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>7249a509d6194b8d80bd283477d327cd</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>d2a8d94a49d541a39426e3f5ab4d3d60</sys_id><sequence>2</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>WARNING</field_value_label><field_value>WARNING</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>7249a509d6194b8d80bd283477d327cd</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>d50ab2ed15894a439105731df862219b</sys_id><sequence>0</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>INFO</field_value_label><field_value>INFO</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>d63f6e3005c74b3f9d8f7d42abaecf38</sys_id><sequence>0</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>list directory</field_value_label><field_value>lsd</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>eb6d22edb906482f8ca002e1d39ce93f</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>e5e721da81894c2db7f1c3ed5e465692</sys_id><sequence>6</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2021-03-12 11:28:01</sys_created_on><field_value_label>create-object-store</field_value_label><field_value>create-object-store</field_value><sys_updated_on>2021-03-12 11:28:01</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>8a52be3e0f9c4bcb9b9c9cccf0e38d31</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>f58b9c2e2c6a4fdd9a3eb5405be9d522</sys_id><sequence>2</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 09:05:42</sys_created_on><field_value_label>180s</field_value_label><field_value>180</field_value><sys_updated_on>2021-04-14 09:05:42</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>8a52be3e0f9c4bcb9b9c9cccf0e38d31</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>f8d3db7e2b154db59ad7996df3b37fdc</sys_id><sequence>0</sequence><sys_updated_by>nbuer</sys_updated_by><sys_created_on>2021-04-14 09:05:19</sys_created_on><field_value_label>10s</field_value_label><field_value>10</field_value><sys_updated_on>2021-04-14 09:05:19</sys_updated_on><sys_created_by>nbuer</sys_created_by><universal_template_id>93d947a2125142a5a706559aa3d333ac</universal_template_id></ops_unv_tmplt_field_choice></related_items_node></ops_unv_tmplt></unload>
